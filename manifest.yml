@@ -1,0 +1,8 @@
+---
+applications:
+- name: "vishwanjali-boot1"
+  memory: 512M
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  domain: epsh.in
+  host: "vishwanjali-boot1"
+  path:  target/lab-1-boot-solution-1.jar 
